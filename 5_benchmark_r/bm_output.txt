@@ -1,0 +1,90 @@
+Using 10-clusters and RASTER with p=3.5 and CLIQUE with xi=20
+RASTER found 10 clusters
+RASTER' found 10 clusters
+CLIQUE found 10 clusters
+Unit: milliseconds
+                                                 expr      min       lq
+       run_raster(df, precision, threshold, min_size) 11.57591 11.60261
+ run_raster_prime(df, precision, threshold, min_size) 16.21996 16.25721
+                               CLIQUE(df, xi[i], tau) 23.96168 25.04712
+     mean   median       uq      max neval
+ 12.27842 12.67080 12.68246 12.86034     5
+ 18.10029 16.36300 16.48968 25.17158     5
+ 31.92914 25.67304 36.65683 48.30704     5
+
+
+Using 100-clusters and RASTER with p=3.5 and CLIQUE with xi=300
+RASTER found 100 clusters
+RASTER' found 100 clusters
+CLIQUE found 100 clusters
+Unit: milliseconds
+                                                 expr       min        lq
+       run_raster(df, precision, threshold, min_size)  101.8598  112.5004
+ run_raster_prime(df, precision, threshold, min_size)  148.5654  148.7821
+                               CLIQUE(df, xi[i], tau) 1191.5074 1250.4178
+      mean    median        uq       max neval
+  111.4367  112.5742  112.7517  117.4974     5
+  151.1062  151.4227  151.6436  155.1170     5
+ 1257.9775 1260.6515 1280.3070 1307.0038     5
+
+
+Using 1000-clusters and RASTER with p=3.5 and CLIQUE with xi=1000
+RASTER found 1000 clusters
+RASTER' found 1000 clusters
+CLIQUE found 996 clusters
+Unit: seconds
+                                                 expr        min         lq
+       run_raster(df, precision, threshold, min_size)   1.158614   1.239900
+ run_raster_prime(df, precision, threshold, min_size)   1.624089   1.650185
+                               CLIQUE(df, xi[i], tau) 126.038267 128.353722
+       mean     median         uq        max neval
+   1.240259   1.241848   1.270327   1.290604     5
+   1.688813   1.709890   1.724028   1.735872     5
+ 128.658116 129.453404 129.626068 129.819118     5
+
+
+Using 10-clusters and RASTER with p=4.0 and CLIQUE with xi=20
+RASTER found 10 clusters
+RASTER' found 10 clusters
+CLIQUE found 10 clusters
+Unit: milliseconds
+                                                 expr      min       lq
+       run_raster(df, precision, threshold, min_size) 18.86030 18.90713
+ run_raster_prime(df, precision, threshold, min_size) 27.27758 27.41252
+                               CLIQUE(df, xi[i], tau) 18.13718 18.41693
+     mean   median       uq      max neval
+ 20.98159 18.91879 19.11444 29.10727     5
+ 27.43192 27.41900 27.44565 27.60484     5
+ 18.43981 18.51596 18.54171 18.58727     5
+
+
+Using 100-clusters and RASTER with p=4.0 and CLIQUE with xi=300
+RASTER found 100 clusters
+RASTER' found 100 clusters
+CLIQUE found 100 clusters
+Unit: milliseconds
+                                                 expr       min        lq
+       run_raster(df, precision, threshold, min_size)  191.5117  192.5160
+ run_raster_prime(df, precision, threshold, min_size)  278.3508  279.4384
+                               CLIQUE(df, xi[i], tau) 1102.9957 1103.9162
+      mean    median        uq       max neval
+  196.9436  193.2201  203.6252  203.8451     5
+  281.6134  280.3450  280.4052  289.5274     5
+ 1124.0848 1117.8295 1125.5493 1170.1335     5
+
+
+Using 1000-clusters and RASTER with p=4.0 and CLIQUE with xi=1000
+RASTER found 1000 clusters
+RASTER' found 1000 clusters
+CLIQUE found 996 clusters
+Unit: seconds
+                                                 expr        min         lq
+       run_raster(df, precision, threshold, min_size)   2.091896   2.094204
+ run_raster_prime(df, precision, threshold, min_size)   3.069513   3.150854
+                               CLIQUE(df, xi[i], tau) 126.911503 127.035606
+       mean     median         uq        max neval
+   2.184443   2.168529   2.219348   2.348239     5
+   3.188974   3.167579   3.261713   3.295210     5
+ 128.022357 127.709231 128.196557 130.258886     5
+
+

@@ -1,0 +1,6 @@
+**/*.class
+
+**/target/*
+
+**/launch.json
+**/tasks.json

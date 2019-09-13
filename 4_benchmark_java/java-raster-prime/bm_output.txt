@@ -1,0 +1,207 @@
+# JMH version: 1.21
+# VM version: JDK 12.0.1, OpenJDK 64-Bit Server VM, 12.0.1+12
+# VM invoker: /usr/java/jdk-12.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 1 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: fcc.raster.prime.RasterPrimeBenchmark.bm_raster
+# Parameters: (n_clusters = 10, precision = 3.5)
+
+# Run progress: 0.00% complete, ETA 00:05:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.635 ms/op
+# Warmup Iteration   2: 0.565 ms/op
+# Warmup Iteration   3: 0.558 ms/op
+# Warmup Iteration   4: 0.558 ms/op
+# Warmup Iteration   5: 0.558 ms/op
+Iteration   1: 0.604 ms/op
+Iteration   2: 0.644 ms/op
+Iteration   3: 0.619 ms/op
+Iteration   4: 0.591 ms/op
+Iteration   5: 0.632 ms/op
+
+
+Result "fcc.raster.prime.RasterPrimeBenchmark.bm_raster":
+  0.618 ±(99.9%) 0.082 ms/op [Average]
+  (min, avg, max) = (0.591, 0.618, 0.644), stdev = 0.021
+  CI (99.9%): [0.536, 0.700] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 12.0.1, OpenJDK 64-Bit Server VM, 12.0.1+12
+# VM invoker: /usr/java/jdk-12.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 1 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: fcc.raster.prime.RasterPrimeBenchmark.bm_raster
+# Parameters: (n_clusters = 10, precision = 4)
+
+# Run progress: 16.67% complete, ETA 00:04:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.584 ms/op
+# Warmup Iteration   2: 0.536 ms/op
+# Warmup Iteration   3: 0.546 ms/op
+# Warmup Iteration   4: 0.537 ms/op
+# Warmup Iteration   5: 0.517 ms/op
+Iteration   1: 0.543 ms/op
+Iteration   2: 0.591 ms/op
+Iteration   3: 0.545 ms/op
+Iteration   4: 0.550 ms/op
+Iteration   5: 0.544 ms/op
+
+
+Result "fcc.raster.prime.RasterPrimeBenchmark.bm_raster":
+  0.555 ±(99.9%) 0.078 ms/op [Average]
+  (min, avg, max) = (0.543, 0.555, 0.591), stdev = 0.020
+  CI (99.9%): [0.476, 0.633] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 12.0.1, OpenJDK 64-Bit Server VM, 12.0.1+12
+# VM invoker: /usr/java/jdk-12.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 1 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: fcc.raster.prime.RasterPrimeBenchmark.bm_raster
+# Parameters: (n_clusters = 100, precision = 3.5)
+
+# Run progress: 33.33% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 8.507 ms/op
+# Warmup Iteration   2: 7.434 ms/op
+# Warmup Iteration   3: 7.216 ms/op
+# Warmup Iteration   4: 7.148 ms/op
+# Warmup Iteration   5: 7.127 ms/op
+Iteration   1: 7.870 ms/op
+Iteration   2: 7.837 ms/op
+Iteration   3: 8.246 ms/op
+Iteration   4: 8.109 ms/op
+Iteration   5: 8.118 ms/op
+
+
+Result "fcc.raster.prime.RasterPrimeBenchmark.bm_raster":
+  8.036 ±(99.9%) 0.676 ms/op [Average]
+  (min, avg, max) = (7.837, 8.036, 8.246), stdev = 0.176
+  CI (99.9%): [7.360, 8.712] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 12.0.1, OpenJDK 64-Bit Server VM, 12.0.1+12
+# VM invoker: /usr/java/jdk-12.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 1 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: fcc.raster.prime.RasterPrimeBenchmark.bm_raster
+# Parameters: (n_clusters = 100, precision = 4)
+
+# Run progress: 50.00% complete, ETA 00:02:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 9.793 ms/op
+# Warmup Iteration   2: 8.689 ms/op
+# Warmup Iteration   3: 8.685 ms/op
+# Warmup Iteration   4: 8.760 ms/op
+# Warmup Iteration   5: 8.773 ms/op
+Iteration   1: 8.956 ms/op
+Iteration   2: 8.884 ms/op
+Iteration   3: 8.982 ms/op
+Iteration   4: 8.970 ms/op
+Iteration   5: 9.091 ms/op
+
+
+Result "fcc.raster.prime.RasterPrimeBenchmark.bm_raster":
+  8.977 ±(99.9%) 0.286 ms/op [Average]
+  (min, avg, max) = (8.884, 8.977, 9.091), stdev = 0.074
+  CI (99.9%): [8.690, 9.263] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 12.0.1, OpenJDK 64-Bit Server VM, 12.0.1+12
+# VM invoker: /usr/java/jdk-12.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 1 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: fcc.raster.prime.RasterPrimeBenchmark.bm_raster
+# Parameters: (n_clusters = 1000, precision = 3.5)
+
+# Run progress: 66.67% complete, ETA 00:01:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 99.050 ms/op
+# Warmup Iteration   2: 84.387 ms/op
+# Warmup Iteration   3: 82.053 ms/op
+# Warmup Iteration   4: 82.070 ms/op
+# Warmup Iteration   5: 82.442 ms/op
+Iteration   1: 89.804 ms/op
+Iteration   2: 88.685 ms/op
+Iteration   3: 80.870 ms/op
+Iteration   4: 80.589 ms/op
+Iteration   5: 80.659 ms/op
+
+
+Result "fcc.raster.prime.RasterPrimeBenchmark.bm_raster":
+  84.121 ±(99.9%) 18.078 ms/op [Average]
+  (min, avg, max) = (80.589, 84.121, 89.804), stdev = 4.695
+  CI (99.9%): [66.044, 102.199] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 12.0.1, OpenJDK 64-Bit Server VM, 12.0.1+12
+# VM invoker: /usr/java/jdk-12.0.1/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 1 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: fcc.raster.prime.RasterPrimeBenchmark.bm_raster
+# Parameters: (n_clusters = 1000, precision = 4)
+
+# Run progress: 83.33% complete, ETA 00:00:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 193.938 ms/op
+# Warmup Iteration   2: 157.922 ms/op
+# Warmup Iteration   3: 158.042 ms/op
+# Warmup Iteration   4: 159.987 ms/op
+# Warmup Iteration   5: 159.000 ms/op
+Iteration   1: 178.068 ms/op
+Iteration   2: 177.905 ms/op
+Iteration   3: 157.270 ms/op
+Iteration   4: 155.699 ms/op
+Iteration   5: 156.295 ms/op
+
+
+Result "fcc.raster.prime.RasterPrimeBenchmark.bm_raster":
+  165.047 ±(99.9%) 45.535 ms/op [Average]
+  (min, avg, max) = (155.699, 165.047, 178.068), stdev = 11.825
+  CI (99.9%): [119.512, 210.582] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:05:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                       (n_clusters)  (precision)  Mode  Cnt    Score    Error  Units
+RasterPrimeBenchmark.bm_raster            10          3.5  avgt    5    0.618 ±  0.082  ms/op
+RasterPrimeBenchmark.bm_raster            10            4  avgt    5    0.555 ±  0.078  ms/op
+RasterPrimeBenchmark.bm_raster           100          3.5  avgt    5    8.036 ±  0.676  ms/op
+RasterPrimeBenchmark.bm_raster           100            4  avgt    5    8.977 ±  0.286  ms/op
+RasterPrimeBenchmark.bm_raster          1000          3.5  avgt    5   84.121 ± 18.078  ms/op
+RasterPrimeBenchmark.bm_raster          1000            4  avgt    5  165.047 ± 45.535  ms/op

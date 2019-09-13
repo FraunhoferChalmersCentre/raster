@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        
+  
+  
+  <modelVersion>4.0.0</modelVersion>
+        
+  
+  
+  <groupId>fcc.clique</groupId>
+        
+  
+  
+  <artifactId>java-clique</artifactId>
+        
+  
+  
+  <version>1.0-SNAPSHOT</version>
+        
+  
+  
+  <packaging>pom</packaging>
+        
+  <dependencies>
+    <dependency>
+      <groupId>nz.ac.waikato.cms.weka</groupId>
+      <artifactId>weka-stable</artifactId>
+      <version>3.8.3</version>
+    </dependency>
+    <dependency>
+      <groupId>fcc.weka.subspace</groupId>
+      <artifactId>weka</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>fcc.weka.subspace</groupId>
+      <artifactId>subspace</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+  
+  <name>java-clique</name>
+      
+
+  <properties>
+    <!--
+        Java source/target to use for compilation.
+      -->
+    <javac.target>12</javac.target>
+  </properties>
+
+  
+  <modules>
+        
+    <module>benchmark</module>
+      
+    <module>clique</module>
+  </modules>
+  
+</project>

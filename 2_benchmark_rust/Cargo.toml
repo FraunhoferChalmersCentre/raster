@@ -1,0 +1,19 @@
+[package]
+name = "raster"
+version = "0.1.0"
+authors = ["ssmith <ssmith@fcc.chalmers.se>"]
+edition = '2018'
+
+[lib]
+name = "raster"
+path = "src/raster/lib.rs"
+
+[dependencies]
+csv = "1"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1"
+num_cpus = "1"
+indexmap = "1"
+rayon = "1.0"
+docopt = "1.1"
+hashbrown = "0.3.0"
